@@ -1,0 +1,11 @@
+<svg width="180" height="240" viewBox="0 0 180 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="180" height="240" rx="20" fill="#F7F7F7" stroke="#A7D8DE" stroke-width="2"/>
+  <rect x="15" y="15" width="150" height="180" rx="12" fill="#A7D8DE"/>
+  <text x="90" y="210" text-anchor="middle" font-size="18" font-family="Pretendard, Noto Sans, sans-serif" fill="#222831" font-weight="bold">이웃집 토토로</text>
+  <g>
+    <circle cx="60" cy="225" r="8" fill="#FFD700"/>
+    <text x="75" y="230" font-size="14" fill="#222831">4.8</text>
+    <rect x="110" y="218" rx="6" width="40" height="16" fill="#F6C28B"/>
+    <text x="130" y="230" font-size="12" fill="#222831" text-anchor="middle">#명작</text>
+  </g>
+</svg>
