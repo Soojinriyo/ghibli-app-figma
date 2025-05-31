@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ghibli 대표작품 추천 앱 디자인 프리뷰</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Ghibli Picks</div>
+    <div class="profile">👤</div>
+  </header>
+  <main>
+    <section class="greeting">홍길동님, 이런 지브리 작품은 어떠세요?</section>
+    <section class="card-slider">
+      <button class="arrow left">&#8592;</button>
+      <div class="card-list">
+        <div class="card">
+          <!-- 카드 SVG import -->
+          <img src="../components/card_component.svg" alt="추천 카드" />
+        </div>
+        <div class="card">
+          <img src="../assets/sample_poster1.svg" alt="샘플 포스터" />
+          <div class="card-title">센과 치히로의 행방불명</div>
+          <div class="card-rating">⭐ 4.9 <span class="tag">#명작</span></div>
+        </div>
+      </div>
+      <button class="arrow right">&#8594;</button>
+    </section>
+    <section class="filters">
+      <img src="../components/filter_pill.svg" alt="필터 pill" class="filter-pill" />
+      <span class="filter-pill selected">모험</span>
+      <span class="filter-pill">판타지</span>
+      <span class="filter-pill">로맨스</span>
+      <label class="slider-label">평점 <input type="range" min="3" max="5" step="0.1" value="4.0" class="rating-slider" /> 4.0+</label>
+      <div class="tabs">
+        <button class="tab active">비슷한 작품</button>
+        <button class="tab">인기작</button>
+        <button class="tab">커뮤니티 추천</button>
+      </div>
+    </section>
+  </main>
+  <nav class="bottom-nav">
+    <img src="../components/bottom_nav.svg" alt="하단 네비" />
+  </nav>
+  <button class="chatbot-fab"><img src="../components/chatbot_fab.svg" alt="챗봇" /></button>
+</body>
+</html>
