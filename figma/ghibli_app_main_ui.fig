@@ -1,0 +1,9 @@
+// 실제 Figma .fig 파일은 바이너리 포맷이므로 이 예시는 텍스트 기반 구조 설명입니다.
+// Figma에서 아래 구조를 참고해 프레임/컴포넌트로 직접 제작하세요.
+
+1. 메인 프레임 (iPhone 14, 390x844)
+  - Header: 로고, 개인화 문구, 프로필
+  - 추천 카드 리스트: Horizontal Scroll, card_component.svg 참고
+  - 필터 영역: filter_pill.svg, 슬라이더, 탭
+  - 하단 네비: bottom_nav.svg 참고
+  - 챗봇 FAB: chatbot_fab.svg 참고

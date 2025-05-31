@@ -1,0 +1,8 @@
+// 실제 Figma .fig 파일은 바이너리 포맷이므로 이 예시는 텍스트 기반 구조 설명입니다.
+// Figma에서 아래 구조를 참고해 컴포넌트로 직접 제작하세요.
+
+- 추천 카드: card_component.svg
+- 필터 pill: filter_pill.svg
+- 하단 네비: bottom_nav.svg
+- 챗봇 FAB: chatbot_fab.svg
+- 샘플 포스터/아바타: assets 디렉토리 참고
